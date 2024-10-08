@@ -1,102 +1,124 @@
-.divPai {
-    border: 10px solid;
-    color: yellow;
-    width: 900px;
-}
-
-.margem1{
-    display: flex;
-    justify-content: space-between;
+.divPai{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    color: black;
+    position: relative;
 }
  
-.verde{
-    width: 250px; 
-    height: 120px; 
-    color: green;
-    font-size: 30px;
-    text-align: center;
-    border-radius: 0px;
-}
-
-.laranja{
-    height: 120px; 
-    width: 250px; 
-    color: orange;
-}
-
-.margem2{
+.divJogador1{
+    width: 110px;
+    height: 110px;
+    border: 2px solid rgb(183, 0, 255);
+    background: antiquewhite;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
  
-.vermelho{
-    height: 120px; 
-    width: 100px; 
-    color: red;
+.divJogador1 .pinojogador1{
+    height: 30%;
+    width: 30%;
+    border: 2px solid;
+    border-radius: 100%;
+    color: rgb(153, 0, 255);
+    margin: 2px;
 }
-
-.amarelo{
-    height: 120px; 
-    width: 100px; 
-    color: yellow;
+ 
+ 
+ 
+ 
+.divJogador2{
+    width: 110px;
+    height: 110px;
+    border: 2px solid rgb(255, 0, 0);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: rgb(255, 173, 173);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
-.verde-pequeno{
-    height: 120px; 
-    width: 100px; 
-    color: green;
+ 
+.divJogador2 .pinojogador2{
+    height: 30%;
+    width: 30%;
+    border: 2px solid;
+    border-radius: 100%;
+    color: rgb(255, 0, 0);
+    margin: 2px;
 }
-
-.azul{
-    height: 120px; 
-    width: 250px; 
-    color: blue;
+ 
+ 
+ 
+.divJogador3{
+    width: 110px;
+    height: 110px;
+    border: 2px solid rgb(2, 0, 128);
+    position: absolute;
+    bottom: 0px;
+    background: rgb(172, 186, 248);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
-.espacamento {
-    height: 50px; 
+ 
+.divJogador3 .pinojogador3{
+    height: 30%;
+    width: 30%;
+    border: 2px solid;
+    border-radius: 100%;
+    color: rgb(13, 0, 128);
+    margin: 2px;
 }
-
-.quadrado-pequeno-vermelho {
-    width: 50px;
-    height: 50px;
-    background-color: #ff0000; 
-    border: 1px solid #000;
-    display: inline-block;
-    margin: 10px;
+ 
+ 
+ 
+.divJogador4{
+    width: 110px;
+    height: 110px;
+    border: 2px solid rgb(251, 255, 0);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(250, 248, 189);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
-.quadrado-pequeno-amarelo {
-    width: 50px;
-    height: 50px;
-    background-color: #ffff00; 
-    border: 1px solid #000;
-    display: inline-block;
-    margin: 10px;
+ 
+.divJogador4 .pinojogador4{
+    height: 30%;
+    width: 30%;
+    border: 2px solid;
+    border-radius: 100%;
+    color: rgb(255, 251, 0);
+    margin: 2px;
 }
-
-.quadrado-pequeno-verde {
-    width: 50px;
-    height: 50px;
-    background-color: #00ff00; 
-    border: 1px solid #000;
-    display: inline-block;
-    margin: 10px;
+ 
+ 
+.barra-horizontal{
+    position: absolute;
+    left: 0px;
+    top: 38%;
+    border: 2px solid black;
+    width: 99%;
+    height: 70px;
 }
-
-.quadrado-pequeno-azul {
-    width: 50px;
-    height: 50px;
-    background-color: #0000ff; 
-    border: 1px solid #000;
-    display: inline-block;
-    margin: 10px;
+ 
+.barra-vertical{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 70px;
+    height: 99%;
+    border: 2px solid black;
+    transform: translate(-50%);
 }
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
+ 
+ 
