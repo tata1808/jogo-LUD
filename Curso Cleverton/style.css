@@ -5,18 +5,21 @@
     color: black;
     position: relative;
 }
- 
+
 .divJogador1{
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     border: 10px solid rgb(183, 0, 255);
     background: rgb(223, 187, 252);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 2px;
+    left: 5px;
 }
- 
+
 .divJogador1 .pinojogador1{
     height: 30%;
     width: 30%;
@@ -26,22 +29,21 @@
     background-color: rgb(153, 0, 153);
     margin: 2px;
 }
- 
 
 .divJogador2{
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     border: 10px solid rgb(255, 0, 0);
     position: absolute;
-    right: 0px;
-    top: 0px;
+    top: 2px;
+    right: 5px;
     background: rgb(250, 181, 181);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
- 
+
 .divJogador2 .pinojogador2{
     height: 30%;
     width: 30%;
@@ -51,22 +53,21 @@
     background-color: red;
     margin: 2px;
 }
- 
- 
- 
+
 .divJogador3{
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     border: 10px solid rgb(2, 0, 128);
     position: absolute;
-    bottom: 0px;
+    bottom: 1px;
+    left: 5px;
     background: rgb(172, 186, 248);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
- 
+
 .divJogador3 .pinojogador3{
     height: 30%;
     width: 30%;
@@ -76,23 +77,21 @@
     background-color: blue;
     margin: 2px;
 }
- 
- 
- 
+
 .divJogador4{
-    width: 110px;
-    height: 110px;
+    width: 89px;
+    height: 92px;
     border: 10px solid rgb(251, 255, 0);
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    bottom: 1px;
+    right: 5px;
     background: rgb(250, 248, 189);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
- 
+
 .divJogador4 .pinojogador4{
     height: 30%;
     width: 30%;
@@ -102,8 +101,7 @@
     background-color: yellow;
     margin: 2px;
 }
- 
- 
+
 .barra-horizontal{
     position: absolute;
     left: 0px;
@@ -112,7 +110,7 @@
     width: 99%;
     height: 70px;
 }
- 
+
 .barra-vertical{
     position: absolute;
     top: 0px;
@@ -121,4 +119,24 @@
     height: 99%;
     border: 2px solid black;
     transform: translate(-50%);
+}
+
+.barra-horizontal {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.barra-horizontal .quadro {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.barra-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-vertical .quadro {
+    flex: 1;
+    border: 1px solid black;
 }
